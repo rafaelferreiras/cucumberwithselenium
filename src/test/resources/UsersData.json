@@ -1,0 +1,14 @@
+[
+  {
+    "users": {
+      "testCase": "Verify sucess",
+      "username": "testing@gmail.com",
+      "password": "Test123456",
+      "rememberMe": false
+    },
+    "testCase": "Verify error",
+    "username": "otter@gmail.com",
+    "password": "test123456",
+    "rememberMe": false
+  }
+]

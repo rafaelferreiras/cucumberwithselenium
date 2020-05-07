@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run" parallel="tests" thread-count="1">
+	
+	<test name="Test on Chrome">
+		
+		<parameter name="BrowserType" value="Chrome" />
+		<classes>
+			
+			<class name="tests.OpenFirstTest" />
+		</classes>
+	</test>
+	
+	<test name="Test on FireFox">
+		
+		<parameter name="BrowserType" value="Fire fox" />
+		<classes>
+		
+			<class name="tests.OpenFirstTest" />
+		</classes>
+	</test>
+	
+	<test name="Test on IE">
+		
+		<parameter name="BrowserType" value="InternetExplore" />
+		<classes>
+			
+			<class name="tests.OpenFirstTest" />
+		</classes>
+	</test>
+
+
+</suite>
+
+
+

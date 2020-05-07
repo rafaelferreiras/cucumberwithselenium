@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-28T16:11:50Z" name="Example test run" finished-at="2020-04-28T16:12:00Z" duration-ms="9717">
+    <groups>
+    </groups>
+    <test started-at="2020-04-28T16:11:50Z" name="Simple Test" finished-at="2020-04-28T16:12:00Z" duration-ms="9717">
+      <class name="com.first.tests.OpenChromeTest">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:com.first.tests.OpenChromeTest@4671e53b]" started-at="2020-04-28T13:11:50Z" name="testSetUp" finished-at="2020-04-28T13:11:56Z" duration-ms="6091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="verifyGooglePageTittle()[pri:0, instance:com.first.tests.OpenChromeTest@4671e53b]" started-at="2020-04-28T13:11:56Z" name="verifyGooglePageTittle" finished-at="2020-04-28T13:11:58Z" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.first.tests.OpenChromeTest@4671e53b]" started-at="2020-04-28T13:11:58Z" name="tearDown" finished-at="2020-04-28T13:12:00Z" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.first.tests.OpenChromeTest -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run -->
+</testng-results>
