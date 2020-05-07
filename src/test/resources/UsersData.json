@@ -1,14 +1,16 @@
-[
-  {
-    "users": {
-      "testCase": "Verify sucess",
-      "username": "testing@gmail.com",
-      "password": "Test123456",
-      "rememberMe": false
-    },
-    "testCase": "Verify error",
-    "username": "otter@gmail.com",
-    "password": "test123456",
-    "rememberMe": false
+{
+  "valid": {
+    "username": "testing@gmail.com",
+    "password": "Test123456"
+  },
+  "invalid": {
+    "username": "invalid@teste.com",
+    "password": "invalid_pass"
+  },
+  "allEmpty": {
+    "username": "",
+    "password": "",
+    "errorMessageEmailRequired": "Email é um campo obrigatório",
+    "errorMessageSenhaRequired": "Senha é um campo obrigatório"
   }
-]
+}

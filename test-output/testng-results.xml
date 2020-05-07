@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Example test run" duration-ms="37522" started-at="2020-05-07T12:39:13Z" finished-at="2020-05-07T12:39:50Z">
+  <suite name="Example test run" duration-ms="84558" started-at="2020-05-07T22:25:45Z" finished-at="2020-05-07T22:27:10Z">
     <groups>
     </groups>
-    <test name="Test on Chrome" duration-ms="15225" started-at="2020-05-07T12:39:13Z" finished-at="2020-05-07T12:39:28Z">
+    <test name="Test on Chrome" duration-ms="30511" started-at="2020-05-07T22:25:45Z" finished-at="2020-05-07T22:26:16Z">
       <class name="tests.OpenFirstTest">
-        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@1593948d]" name="getDriver" is-config="true" duration-ms="12771" started-at="2020-05-07T09:39:13Z" finished-at="2020-05-07T09:39:25Z">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="getDriver" is-config="true" duration-ms="14065" started-at="2020-05-07T19:25:45Z" finished-at="2020-05-07T19:25:59Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:tests.OpenFirstTest@1593948d]" name="BeforeClass" is-config="true" duration-ms="6" started-at="2020-05-07T09:39:25Z" finished-at="2020-05-07T09:39:25Z">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="BeforeClass" is-config="true" duration-ms="4" started-at="2020-05-07T19:25:59Z" finished-at="2020-05-07T19:25:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@1593948d]" name="verifyAcessSuccessfully" duration-ms="2440" started-at="2020-05-07T09:39:25Z" finished-at="2020-05-07T09:39:28Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="verifyAcessEmpty" duration-ms="3820" started-at="2020-05-07T19:25:59Z" finished-at="2020-05-07T19:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessEmpty -->
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="verifyAcessInvalid" duration-ms="4006" started-at="2020-05-07T19:26:03Z" finished-at="2020-05-07T19:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessInvalid -->
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="verifyAcessSuccessfully" duration-ms="4268" started-at="2020-05-07T19:26:07Z" finished-at="2020-05-07T19:26:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="AfterMethod" is-config="true" duration-ms="4335" started-at="2020-05-07T19:26:12Z" finished-at="2020-05-07T19:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
       </class> <!-- tests.OpenFirstTest -->
     </test> <!-- Test on Chrome -->
-    <test name="Test on FireFox" duration-ms="16704" started-at="2020-05-07T12:39:28Z" finished-at="2020-05-07T12:39:45Z">
+    <test name="Test on FireFox" duration-ms="29785" started-at="2020-05-07T22:26:16Z" finished-at="2020-05-07T22:26:46Z">
       <class name="tests.OpenFirstTest">
-        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="getDriver" is-config="true" duration-ms="10681" started-at="2020-05-07T09:39:28Z" finished-at="2020-05-07T09:39:39Z">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="getDriver" is-config="true" duration-ms="13115" started-at="2020-05-07T19:26:16Z" finished-at="2020-05-07T19:26:29Z">
           <params>
             <param index="0">
               <value>
@@ -41,19 +53,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2020-05-07T09:39:39Z" finished-at="2020-05-07T09:39:39Z">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-05-07T19:26:29Z" finished-at="2020-05-07T19:26:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="verifyAcessSuccessfully" duration-ms="6019" started-at="2020-05-07T09:39:39Z" finished-at="2020-05-07T09:39:45Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="verifyAcessEmpty" duration-ms="3856" started-at="2020-05-07T19:26:29Z" finished-at="2020-05-07T19:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessEmpty -->
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="verifyAcessInvalid" duration-ms="4958" started-at="2020-05-07T19:26:33Z" finished-at="2020-05-07T19:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessInvalid -->
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="verifyAcessSuccessfully" duration-ms="4384" started-at="2020-05-07T19:26:38Z" finished-at="2020-05-07T19:26:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="AfterMethod" is-config="true" duration-ms="3467" started-at="2020-05-07T19:26:42Z" finished-at="2020-05-07T19:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
       </class> <!-- tests.OpenFirstTest -->
     </test> <!-- Test on FireFox -->
-    <test name="Test on IE" duration-ms="5550" started-at="2020-05-07T12:39:45Z" finished-at="2020-05-07T12:39:50Z">
+    <test name="Test on IE" duration-ms="24235" started-at="2020-05-07T22:26:46Z" finished-at="2020-05-07T22:27:10Z">
       <class name="tests.OpenFirstTest">
-        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@91161c7]" name="getDriver" is-config="true" duration-ms="3585" started-at="2020-05-07T09:39:45Z" finished-at="2020-05-07T09:39:48Z">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@91161c7]" name="getDriver" is-config="true" duration-ms="7422" started-at="2020-05-07T19:26:46Z" finished-at="2020-05-07T19:26:53Z">
           <params>
             <param index="0">
               <value>
@@ -64,15 +88,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-05-07T09:39:48Z" finished-at="2020-05-07T09:39:48Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="verifyAcessEmpty" duration-ms="7428" started-at="2020-05-07T19:26:53Z" finished-at="2020-05-07T19:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessEmpty -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2020-05-07T19:26:53Z" finished-at="2020-05-07T19:26:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="verifyAcessSuccessfully" duration-ms="1964" started-at="2020-05-07T09:39:48Z" finished-at="2020-05-07T09:39:50Z">
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="verifyAcessInvalid" duration-ms="1967" started-at="2020-05-07T19:27:01Z" finished-at="2020-05-07T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessInvalid -->
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="verifyAcessSuccessfully" duration-ms="7403" started-at="2020-05-07T19:27:03Z" finished-at="2020-05-07T19:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="AfterMethod" is-config="true" duration-ms="15" started-at="2020-05-07T09:39:50Z" finished-at="2020-05-07T09:39:50Z">
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="AfterMethod" is-config="true" duration-ms="14" started-at="2020-05-07T19:27:10Z" finished-at="2020-05-07T19:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->

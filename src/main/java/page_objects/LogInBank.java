@@ -24,7 +24,7 @@ public class LogInBank {
 
 	private WebElement btn_Submit;
 
-	public void loginSuccessfully(String user, String pass) {
+	public void loginBank(String user, String pass) {
 
 		txt_UserName.sendKeys(user);
 		txt_Password.sendKeys(pass);

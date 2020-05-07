@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" parallel="none">
-  <test name="Default test(failed)" parallel="none">
+<suite thread-count="1" name="Failed suite [Example test run]" parallel="tests">
+  <parameter name="BrowserType" value="InternetExplore"/>
+  <test name="Test on Chrome(failed)" parallel="tests">
+    <parameter name="BrowserType" value="Chrome"/>
     <classes>
       <class name="tests.OpenFirstTest">
         <methods>
           <include name="verifyAcessSuccessfully"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="verifyAcessEmpty"/>
+          <include name="verifyAcessInvalid"/>
+          <include name="AfterMethod"/>
+          <include name="AfterMethod"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeClass"/>
         </methods>
       </class> <!-- tests.OpenFirstTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test on Chrome(failed) -->
+  <test name="Test on FireFox(failed)" parallel="tests">
+    <parameter name="BrowserType" value="Fire fox"/>
+    <classes>
+      <class name="tests.OpenFirstTest">
+        <methods>
+          <include name="verifyAcessSuccessfully"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="verifyAcessEmpty"/>
+          <include name="verifyAcessInvalid"/>
+          <include name="AfterMethod"/>
+          <include name="AfterMethod"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- tests.OpenFirstTest -->
+    </classes>
+  </test> <!-- Test on FireFox(failed) -->
+  <test name="Test on IE(failed)" parallel="tests">
+    <parameter name="BrowserType" value="InternetExplore"/>
+    <classes>
+      <class name="tests.OpenFirstTest">
+        <methods>
+          <include name="verifyAcessSuccessfully"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="verifyAcessEmpty"/>
+          <include name="verifyAcessInvalid"/>
+          <include name="AfterMethod"/>
+          <include name="AfterMethod"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- tests.OpenFirstTest -->
+    </classes>
+  </test> <!-- Test on IE(failed) -->
+</suite> <!-- Failed suite [Example test run] -->
