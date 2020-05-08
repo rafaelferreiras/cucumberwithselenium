@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -15,13 +15,17 @@ import page_objects.HomePage;
 
 public class WebDriverManager {
 
+	
+	protected static WebDriverWait wait;
 	protected static WebDriver driver;
 	protected static PageObjectManager pageObjectManager;
 	protected static HomePage homePage;
 
+	
+	
 	@BeforeTest
 	@Parameters({ "BrowserType" })
-	public static void getDriver(String BrowserType) {
+	public static void OpenDriver(String BrowserType) {
 
 		driver = WebDriverManager.LocalDrivers(BrowserType);
 		pageObjectManager = new PageObjectManager(driver);
@@ -29,11 +33,17 @@ public class WebDriverManager {
 		homePage.GoHomePage();
 
 	}
+	
+	public static WebDriver getDriver() {
+		
+		return driver;
+	}
 
 	public static void ManageBrowser() {
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		wait = new WebDriverWait(driver, 100);
 
 	}
 

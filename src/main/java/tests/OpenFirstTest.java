@@ -6,9 +6,11 @@ import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
+import helper.HelperLogInBank;
 import managers.WebDriverManager;
-import page_objects.LogInBank;
 import utilities.JsonHandler;
+import org.openqa.selenium.By;
+
 
 public class OpenFirstTest extends WebDriverManager {
 
@@ -16,58 +18,71 @@ public class OpenFirstTest extends WebDriverManager {
 
 	}
 
-	JsonHandler jsonHandler = new JsonHandler();
+	HelperLogInBank helper;
+	JsonHandler jsonHandler;
 	JSONObject jsonObject = null;
 	String username;
 	String password;
-	
 
 	@org.testng.annotations.BeforeClass
-	public void BeforeClass() throws IOException, ParseException {
+	public void init() throws IOException, ParseException {
 
-		jsonObject = jsonHandler.getDataFile("UsersData.json");
+		jsonHandler = new JsonHandler();
+		helper = new HelperLogInBank();
+		// jsonObject = jsonHandler.getDataFile("UsersData.json");
 
 	}
 
 	@Test
-	public void verifyAcessSuccessfully() throws IOException, ParseException {
+	public void verifyAcessSuccessfully() throws InterruptedException {
 
-		jsonObject = jsonHandler.getDataGroup(jsonObject, "valid");
+		// jsonObject = jsonHandler.getDataGroup(jsonObject, "valid");
+		jsonObject = jsonHandler.getDataFile("UsersData.json", "valid");
 		username = (String) jsonObject.get("username");
 		password = (String) jsonObject.get("password");
-		new LogInBank(driver).loginBank(username, password);
 
-		String getTitle = driver.getTitle();
-		Assert.assertEquals(getTitle, "Digital Bank");
+		helper.preencherLogin(username)
+		.preencheSenha(password)
+		.clicarSumit();
+		Thread.sleep(3000);
+
+		String getTitle = driver.findElement(By.xpath("//li[contains(.,'Welcome RAFAEL')]")).getText();
+		Assert.assertEquals(getTitle, "Welcome RAFAEL");
 	}
-	
+
 	@Test
-	public void verifyAcessInvalid() throws IOException, ParseException {
+	public void verifyAcessInvalid() throws InterruptedException {
 
-		
-		jsonObject = jsonHandler.getDataGroup(jsonObject, "invalid");
+		// jsonObject = jsonHandler.getDataGroup(jsonObject, "allEmpty");
+		jsonObject = jsonHandler.getDataFile("UsersData.json", "invalid");
 		username = (String) jsonObject.get("username");
 		password = (String) jsonObject.get("password");
-		new LogInBank(driver).loginBank(username, password);
 
-		String getTitle = driver.getTitle();
-		Assert.assertEquals(getTitle, "Digital Bank");
+		helper.preencherLogin(username)
+		.preencheSenha(password)
+		.clicarSumit();
+		Thread.sleep(3000);
+
+		boolean getAlert = driver.findElement(By.cssSelector(".sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show")).getAttribute("innerText").contains("Invalid credentials or access not granted.");
+		Assert.assertEquals(getAlert, true);
 	}
-	
-	
+
 	@Test
-	public void verifyAcessEmpty() throws IOException, ParseException {
+	public void verifyAcessEmpty() throws InterruptedException {
 
-		
-		jsonObject = jsonHandler.getDataGroup(jsonObject, "allEmpty");
+		// jsonObject = jsonHandler.getDataGroup(jsonObject, "allEmpty");
+		jsonObject = jsonHandler.getDataFile("UsersData.json", "allEmpty");
 		username = (String) jsonObject.get("username");
 		password = (String) jsonObject.get("password");
-		new LogInBank(driver).loginBank(username, password);
-		String getTitle = driver.getTitle();
-		Assert.assertEquals(getTitle, "Digital Bank");
+
+		helper.preencherLogin(username)
+		.preencheSenha(password)
+		.clicarSumit();
+		Thread.sleep(3000);
+
+		boolean getAlert = driver.findElement(By.cssSelector(".sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show")).getAttribute("innerText").contains("Invalid credentials or access not granted.");
+		Assert.assertEquals(getAlert, true);
 	}
-
-
 
 	@AfterClass
 	public void AfterMethod() {

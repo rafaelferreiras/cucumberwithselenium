@@ -7,18 +7,16 @@
     <classes>
       <class name="tests.OpenFirstTest">
         <methods>
-          <include name="verifyAcessSuccessfully"/>
-          <include name="getDriver"/>
-          <include name="getDriver"/>
-          <include name="getDriver"/>
+          <include name="OpenDriver"/>
+          <include name="OpenDriver"/>
+          <include name="OpenDriver"/>
           <include name="verifyAcessEmpty"/>
-          <include name="verifyAcessInvalid"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="init"/>
           <include name="AfterMethod"/>
           <include name="AfterMethod"/>
           <include name="AfterMethod"/>
-          <include name="BeforeClass"/>
-          <include name="BeforeClass"/>
-          <include name="BeforeClass"/>
         </methods>
       </class> <!-- tests.OpenFirstTest -->
     </classes>
@@ -28,18 +26,16 @@
     <classes>
       <class name="tests.OpenFirstTest">
         <methods>
-          <include name="verifyAcessSuccessfully"/>
-          <include name="getDriver"/>
-          <include name="getDriver"/>
-          <include name="getDriver"/>
+          <include name="OpenDriver"/>
+          <include name="OpenDriver"/>
+          <include name="OpenDriver"/>
           <include name="verifyAcessEmpty"/>
-          <include name="verifyAcessInvalid"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="init"/>
           <include name="AfterMethod"/>
           <include name="AfterMethod"/>
           <include name="AfterMethod"/>
-          <include name="BeforeClass"/>
-          <include name="BeforeClass"/>
-          <include name="BeforeClass"/>
         </methods>
       </class> <!-- tests.OpenFirstTest -->
     </classes>
@@ -49,18 +45,16 @@
     <classes>
       <class name="tests.OpenFirstTest">
         <methods>
-          <include name="verifyAcessSuccessfully"/>
-          <include name="getDriver"/>
-          <include name="getDriver"/>
-          <include name="getDriver"/>
+          <include name="OpenDriver"/>
+          <include name="OpenDriver"/>
+          <include name="OpenDriver"/>
           <include name="verifyAcessEmpty"/>
-          <include name="verifyAcessInvalid"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="init"/>
           <include name="AfterMethod"/>
           <include name="AfterMethod"/>
           <include name="AfterMethod"/>
-          <include name="BeforeClass"/>
-          <include name="BeforeClass"/>
-          <include name="BeforeClass"/>
         </methods>
       </class> <!-- tests.OpenFirstTest -->
     </classes>
