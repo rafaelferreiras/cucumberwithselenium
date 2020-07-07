@@ -7,39 +7,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 
+import base_test.BaseTest;
 import enums.BrowserType;
-import page_objects.HomePage;
 
-public class WebDriverManager {
+public class BroserManager extends BaseTest {
 
-	
 	protected static WebDriverWait wait;
-	protected static WebDriver driver;
-	protected static PageObjectManager pageObjectManager;
-	protected static HomePage homePage;
 
-	
-	
-	@BeforeTest
-	@Parameters({ "BrowserType" })
-	public static void OpenDriver(String BrowserType) {
-
-		driver = WebDriverManager.LocalDrivers(BrowserType);
-		pageObjectManager = new PageObjectManager(driver);
-		homePage = pageObjectManager.getHomePage();
-		homePage.GoHomePage();
-
-	}
-	
-	public static WebDriver getDriver() {
-		
-		return driver;
-	}
-
-	public static void ManageBrowser() {
+	public void ManageBrowser() {
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -47,7 +23,7 @@ public class WebDriverManager {
 
 	}
 
-	public static WebDriver LocalDrivers(String driversType) {
+	public WebDriver LocalDrivers(String driversType) {
 
 		BrowserType type = BrowserType.driversTypeForName(driversType);
 
@@ -81,18 +57,13 @@ public class WebDriverManager {
 			return driver;
 
 		/*
-		 * ERROR: Output in Eclipse: WebDriver Open IE Go to Tools -> Internet Options
-		 * -> Security Set all zones to the same protected mode, enabled or disabled
-		 * should not matter. Finally, set Zoom level to 100%
+		 * ERRO: Saída no Eclipse: WebDriver Open IE Vá para Ferramentas -> Opções da
+		 * Internet -> Segurança Defina todas as zonas para o mesmo modo protegido,
+		 * ativado ou desativado não deve importar. Por fim, defina o nível de zoom para
+		 * 100%
 		 */
 
 		}
-
-	}
-
-	public static void CloseDriver() {
-
-		driver.close();
 
 	}
 

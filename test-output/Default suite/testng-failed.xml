@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="tests.OpenFirstTest">
+      <class name="tests.TestLoginBank">
         <methods>
+          <include name="verifyAcessEmpty"/>
+          <include name="verifyAcessInvalid"/>
           <include name="verifyAcessSuccessfully"/>
         </methods>
-      </class> <!-- tests.OpenFirstTest -->
+      </class> <!-- tests.TestLoginBank -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,16 +1,19 @@
 {
   "valid": {
     "username": "testing@gmail.com",
-    "password": "Test123456"
+    "password": "Test123456",
+    "message": "Welcome RAFAEL",
+    
   },
   "invalid": {
     "username": "invalid@teste.com",
-    "password": "invalid_pass"
+    "password": "invalid_pass",
+    "message": "Invalid credentials or access not granted.",
   },
   "allEmpty": {
     "username": "",
     "password": "",
-    "errorMessageEmailRequired": "Email é um campo obrigatório",
-    "errorMessageSenhaRequired": "Senha é um campo obrigatório"
+    "message": "Invalid credentials or access not granted.",
+    
   }
 }

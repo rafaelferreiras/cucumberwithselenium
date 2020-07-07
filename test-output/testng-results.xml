@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Example test run" duration-ms="119568" started-at="2020-05-08T21:31:00Z" finished-at="2020-05-08T21:33:00Z">
+  <suite name="Example test run" duration-ms="89678" started-at="2020-07-07T01:26:28Z" finished-at="2020-07-07T01:27:57Z">
     <groups>
     </groups>
-    <test name="Test on Chrome" duration-ms="44903" started-at="2020-05-08T21:31:00Z" finished-at="2020-05-08T21:31:45Z">
-      <class name="tests.OpenFirstTest">
-        <test-method status="PASS" signature="OpenDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="OpenDriver" is-config="true" duration-ms="15578" started-at="2020-05-08T18:31:00Z" finished-at="2020-05-08T18:31:16Z">
+    <test name="Test on Chrome" duration-ms="37579" started-at="2020-07-07T01:26:28Z" finished-at="2020-07-07T01:27:05Z">
+      <class name="tests.TestLoginBank">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@1b604f19]" name="getDriver" is-config="true" duration-ms="12604" started-at="2020-07-06T22:26:28Z" finished-at="2020-07-06T22:26:40Z">
           <params>
             <param index="0">
               <value>
@@ -17,32 +17,32 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenDriver -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="init" is-config="true" duration-ms="19" started-at="2020-05-08T18:31:16Z" finished-at="2020-05-08T18:31:16Z">
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="init" is-config="true" duration-ms="18" started-at="2020-07-06T22:26:40Z" finished-at="2020-07-06T22:26:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="verifyAcessEmpty" duration-ms="7990" started-at="2020-05-08T18:31:16Z" finished-at="2020-05-08T18:31:24Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="verifyAcessEmpty" duration-ms="5035" started-at="2020-07-06T22:26:40Z" finished-at="2020-07-06T22:26:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="verifyAcessInvalid" duration-ms="8001" started-at="2020-05-08T18:31:24Z" finished-at="2020-05-08T18:31:32Z">
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="verifyAcessInvalid" duration-ms="7375" started-at="2020-07-06T22:26:45Z" finished-at="2020-07-06T22:26:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="verifyAcessSuccessfully" duration-ms="8980" started-at="2020-05-08T18:31:32Z" finished-at="2020-05-08T18:31:41Z">
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="verifyAcessSuccessfully" duration-ms="8222" started-at="2020-07-06T22:26:53Z" finished-at="2020-07-06T22:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.OpenFirstTest@1b604f19]" name="AfterMethod" is-config="true" duration-ms="4319" started-at="2020-05-08T18:31:41Z" finished-at="2020-05-08T18:31:45Z">
+        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="ClosedDriver" is-config="true" duration-ms="4312" started-at="2020-07-06T22:27:01Z" finished-at="2020-07-06T22:27:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- tests.OpenFirstTest -->
+        </test-method> <!-- ClosedDriver -->
+      </class> <!-- tests.TestLoginBank -->
     </test> <!-- Test on Chrome -->
-    <test name="Test on FireFox" duration-ms="38896" started-at="2020-05-08T21:31:45Z" finished-at="2020-05-08T21:32:24Z">
-      <class name="tests.OpenFirstTest">
-        <test-method status="PASS" signature="OpenDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="OpenDriver" is-config="true" duration-ms="11057" started-at="2020-05-08T18:31:45Z" finished-at="2020-05-08T18:31:56Z">
+    <test name="Test on FireFox" duration-ms="29745" started-at="2020-07-07T01:27:05Z" finished-at="2020-07-07T01:27:35Z">
+      <class name="tests.TestLoginBank">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="getDriver" is-config="true" duration-ms="8486" started-at="2020-07-06T22:27:05Z" finished-at="2020-07-06T22:27:14Z">
           <params>
             <param index="0">
               <value>
@@ -52,32 +52,32 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenDriver -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="init" is-config="true" duration-ms="1" started-at="2020-05-08T18:31:56Z" finished-at="2020-05-08T18:31:56Z">
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="init" is-config="true" duration-ms="1" started-at="2020-07-06T22:27:14Z" finished-at="2020-07-06T22:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="verifyAcessEmpty" duration-ms="7802" started-at="2020-05-08T18:31:56Z" finished-at="2020-05-08T18:32:04Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="verifyAcessEmpty" duration-ms="5355" started-at="2020-07-06T22:27:14Z" finished-at="2020-07-06T22:27:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="verifyAcessInvalid" duration-ms="8208" started-at="2020-05-08T18:32:04Z" finished-at="2020-05-08T18:32:12Z">
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="verifyAcessInvalid" duration-ms="5731" started-at="2020-07-06T22:27:19Z" finished-at="2020-07-06T22:27:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="verifyAcessSuccessfully" duration-ms="8854" started-at="2020-05-08T18:32:12Z" finished-at="2020-05-08T18:32:21Z">
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="verifyAcessSuccessfully" duration-ms="7218" started-at="2020-07-06T22:27:25Z" finished-at="2020-07-06T22:27:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.OpenFirstTest@77caeb3e]" name="AfterMethod" is-config="true" duration-ms="2970" started-at="2020-05-08T18:32:21Z" finished-at="2020-05-08T18:32:24Z">
+        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="ClosedDriver" is-config="true" duration-ms="2950" started-at="2020-07-06T22:27:32Z" finished-at="2020-07-06T22:27:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- tests.OpenFirstTest -->
+        </test-method> <!-- ClosedDriver -->
+      </class> <!-- tests.TestLoginBank -->
     </test> <!-- Test on FireFox -->
-    <test name="Test on IE" duration-ms="35741" started-at="2020-05-08T21:32:24Z" finished-at="2020-05-08T21:33:00Z">
-      <class name="tests.OpenFirstTest">
-        <test-method status="PASS" signature="OpenDriver(java.lang.String)[pri:0, instance:tests.OpenFirstTest@91161c7]" name="OpenDriver" is-config="true" duration-ms="9749" started-at="2020-05-08T18:32:24Z" finished-at="2020-05-08T18:32:34Z">
+    <test name="Test on IE" duration-ms="22330" started-at="2020-07-07T01:27:35Z" finished-at="2020-07-07T01:27:57Z">
+      <class name="tests.TestLoginBank">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="getDriver" is-config="true" duration-ms="3190" started-at="2020-07-06T22:27:35Z" finished-at="2020-07-06T22:27:38Z">
           <params>
             <param index="0">
               <value>
@@ -87,28 +87,32 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenDriver -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="verifyAcessEmpty" duration-ms="9730" started-at="2020-05-08T18:32:34Z" finished-at="2020-05-08T18:32:44Z">
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="verifyAcessEmpty" duration-ms="9243" started-at="2020-07-06T22:27:38Z" finished-at="2020-07-06T22:27:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="init" is-config="true" duration-ms="0" started-at="2020-05-08T18:32:34Z" finished-at="2020-05-08T18:32:34Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="init" is-config="true" duration-ms="0" started-at="2020-07-06T22:27:38Z" finished-at="2020-07-06T22:27:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="verifyAcessInvalid" duration-ms="5083" started-at="2020-05-08T18:32:44Z" finished-at="2020-05-08T18:32:49Z">
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="verifyAcessInvalid" duration-ms="4879" started-at="2020-07-06T22:27:47Z" finished-at="2020-07-06T22:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="verifyAcessSuccessfully" duration-ms="11061" started-at="2020-05-08T18:32:49Z" finished-at="2020-05-08T18:33:00Z">
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="verifyAcessSuccessfully" duration-ms="5002" started-at="2020-07-06T22:27:52Z" finished-at="2020-07-06T22:27:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:tests.OpenFirstTest@91161c7]" name="AfterMethod" is-config="true" duration-ms="118" started-at="2020-05-08T18:33:00Z" finished-at="2020-05-08T18:33:00Z">
+        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="ClosedDriver" is-config="true" duration-ms="14" started-at="2020-07-06T22:27:57Z" finished-at="2020-07-06T22:27:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- tests.OpenFirstTest -->
+        </test-method> <!-- ClosedDriver -->
+        <test-method status="PASS" signature="TestReport()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="TestReport" is-config="true" duration-ms="0" started-at="2020-07-06T22:27:57Z" finished-at="2020-07-06T22:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestReport -->
+      </class> <!-- tests.TestLoginBank -->
     </test> <!-- Test on IE -->
   </suite> <!-- Example test run -->
 </testng-results>

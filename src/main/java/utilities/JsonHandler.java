@@ -10,7 +10,11 @@ import org.json.simple.parser.ParseException;
 
 public class JsonHandler {
 
-	public JSONObject getDataFile(String fileName, String dataGroup)  {
+	public JsonHandler() {
+
+	}
+
+	public JSONObject getDataFile(String fileName, String dataGroup) {
 
 		InputStream inputStream = getClass().getResourceAsStream("/" + fileName);
 		BufferedReader buffRead = new BufferedReader(new InputStreamReader(inputStream));
@@ -33,19 +37,14 @@ public class JsonHandler {
 		// garantindo que o objeto json não está nulo
 		assert jsonDataObject != null;
 
-		// retornando o objeto json
-		//	return jsonDataObject;
-		
-		// retornando o objeto json, filtrando pelo grupo de dados desejado
-				return (JSONObject) jsonDataObject.get(dataGroup);
-
-	}
-
-	/*public JSONObject getDataGroup(JSONObject jsonDataObject, String dataGroup) {
-
 		// retornando o objeto json, filtrando pelo grupo de dados desejado
 		return (JSONObject) jsonDataObject.get(dataGroup);
 
-	}*/
+	}
+
+	public JSONObject getDataGroup(JSONObject jsonDataObject, String dataGroup) {
+		// retornando o objeto json, filtrando pelo grupo de dados desejado
+		return (JSONObject) jsonDataObject.get(dataGroup);
+	}
 
 }

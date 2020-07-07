@@ -5,58 +5,64 @@
   <test name="Test on Chrome(failed)" parallel="tests">
     <parameter name="BrowserType" value="Chrome"/>
     <classes>
-      <class name="tests.OpenFirstTest">
+      <class name="tests.TestLoginBank">
         <methods>
-          <include name="OpenDriver"/>
-          <include name="OpenDriver"/>
-          <include name="OpenDriver"/>
           <include name="verifyAcessEmpty"/>
+          <include name="TestReport"/>
+          <include name="verifyAcessInvalid"/>
           <include name="init"/>
           <include name="init"/>
           <include name="init"/>
-          <include name="AfterMethod"/>
-          <include name="AfterMethod"/>
-          <include name="AfterMethod"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="ClosedDriver"/>
+          <include name="ClosedDriver"/>
+          <include name="ClosedDriver"/>
         </methods>
-      </class> <!-- tests.OpenFirstTest -->
+      </class> <!-- tests.TestLoginBank -->
     </classes>
   </test> <!-- Test on Chrome(failed) -->
   <test name="Test on FireFox(failed)" parallel="tests">
     <parameter name="BrowserType" value="Fire fox"/>
     <classes>
-      <class name="tests.OpenFirstTest">
+      <class name="tests.TestLoginBank">
         <methods>
-          <include name="OpenDriver"/>
-          <include name="OpenDriver"/>
-          <include name="OpenDriver"/>
           <include name="verifyAcessEmpty"/>
+          <include name="TestReport"/>
+          <include name="verifyAcessInvalid"/>
           <include name="init"/>
           <include name="init"/>
           <include name="init"/>
-          <include name="AfterMethod"/>
-          <include name="AfterMethod"/>
-          <include name="AfterMethod"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="ClosedDriver"/>
+          <include name="ClosedDriver"/>
+          <include name="ClosedDriver"/>
         </methods>
-      </class> <!-- tests.OpenFirstTest -->
+      </class> <!-- tests.TestLoginBank -->
     </classes>
   </test> <!-- Test on FireFox(failed) -->
   <test name="Test on IE(failed)" parallel="tests">
     <parameter name="BrowserType" value="InternetExplore"/>
     <classes>
-      <class name="tests.OpenFirstTest">
+      <class name="tests.TestLoginBank">
         <methods>
-          <include name="OpenDriver"/>
-          <include name="OpenDriver"/>
-          <include name="OpenDriver"/>
           <include name="verifyAcessEmpty"/>
+          <include name="TestReport"/>
+          <include name="verifyAcessInvalid"/>
           <include name="init"/>
           <include name="init"/>
           <include name="init"/>
-          <include name="AfterMethod"/>
-          <include name="AfterMethod"/>
-          <include name="AfterMethod"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="getDriver"/>
+          <include name="ClosedDriver"/>
+          <include name="ClosedDriver"/>
+          <include name="ClosedDriver"/>
         </methods>
-      </class> <!-- tests.OpenFirstTest -->
+      </class> <!-- tests.TestLoginBank -->
     </classes>
   </test> <!-- Test on IE(failed) -->
 </suite> <!-- Failed suite [Example test run] -->

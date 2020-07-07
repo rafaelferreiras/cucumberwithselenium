@@ -6,7 +6,7 @@
 		<parameter name="BrowserType" value="Chrome" />
 		<classes>
 			
-			<class name="tests.OpenFirstTest" />
+			<class name="tests.TestLoginBank" />
 		</classes>
 	</test>
 	
@@ -15,7 +15,7 @@
 		<parameter name="BrowserType" value="Fire fox" />
 		<classes>
 		
-			<class name="tests.OpenFirstTest" />
+			<class name="tests.TestLoginBank" />
 		</classes>
 	</test>
 	
@@ -24,7 +24,7 @@
 		<parameter name="BrowserType" value="InternetExplore" />
 		<classes>
 			
-			<class name="tests.OpenFirstTest" />
+			<class name="tests.TestLoginBank" />
 		</classes>
 	</test>
 
