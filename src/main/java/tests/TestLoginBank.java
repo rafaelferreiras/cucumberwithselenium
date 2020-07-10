@@ -7,10 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import action_test.LoginAction;
 import base_test.BaseTest;
 import helper.DemoFeatureStepDef;
-import helper.HelperLogInBank;
 import utilities.JsonHandler;
 
 public class TestLoginBank extends BaseTest {
@@ -40,8 +38,7 @@ public class TestLoginBank extends BaseTest {
 		username = (String) jsonObject.get("username");
 		password = (String) jsonObject.get("password");
 
-		demo.eu_navego_para_aplicacao_para_teste_Success()
-		.eu_tento_entrar_com_as_credenciais_validas(username,
+		demo.eu_navego_para_aplicacao_para_teste_Success().eu_tento_entrar_com_as_credenciais_validas(username,
 				password);
 		try {
 			Thread.sleep(3000);
@@ -60,19 +57,19 @@ public class TestLoginBank extends BaseTest {
 	public void verifyAcessInvalid() {
 
 		jsonObject = jsonHandler.getDataFile("UsersData.json", "invalid");
-		
+
 		username = (String) jsonObject.get("username");
 		password = (String) jsonObject.get("password");
 
-		demo.eu_navego_para_aplicacao_para_teste_invalid()
-		.eu_tento_entrar_com_as_credenciais_invalidas(username, password);
+		demo.eu_navego_para_aplicacao_para_teste_invalid().eu_tento_entrar_com_as_credenciais_invalidas(username,
+				password);
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			System.out.println("Falha ao executar ->" + e.getMessage());
 			e.printStackTrace();
 		}
-		
+
 		element = demo.eu_devo_ver_que_nao_tive_acesso();
 		testObjective = (String) jsonObject.get("message");
 		Assert.assertTrue(element.contains(testObjective));
@@ -86,15 +83,15 @@ public class TestLoginBank extends BaseTest {
 		username = (String) jsonObject.get("username");
 		password = (String) jsonObject.get("password");
 
-		demo.eu_navego_para_aplicacao_para_teste_empty()
-		.eu_tento_entrar_com_as_credenciais_em_branco(username, password);
+		demo.eu_navego_para_aplicacao_para_teste_empty().eu_tento_entrar_com_as_credenciais_em_branco(username,
+				password);
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			System.out.println("Falha ao executar ->" + e.getMessage());
 			e.printStackTrace();
 		}
-		
+
 		element = demo.eu_devo_ver_que_nao_tive_acesso_com_dados_em_branco();
 		testObjective = (String) jsonObject.get("message");
 		Assert.assertTrue(element.contains(testObjective));
