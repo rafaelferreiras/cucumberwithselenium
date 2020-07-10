@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Unable to find element with xpath == //li[contains(.,'Welcome RAFAEL')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:40440/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}\nSession ID: 210ba37b-fb3b-434f-ac5e-dec115426814\n*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}",
+      "children" : [ {
+        "name" : "verifyAcessSuccessfully",
+        "uid" : "64ff903932bde698",
+        "parentUid" : "0e6ea673451138c7ca43ebed4cec9050",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594345634758,
+          "stop" : 1594345650314,
+          "duration" : 15556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "InternetExplore" ]
+      } ],
+      "uid" : "0e6ea673451138c7ca43ebed4cec9050"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

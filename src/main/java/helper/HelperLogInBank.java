@@ -1,10 +1,5 @@
 package helper;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-
 import page_objects.LogInBank;
 
 public class HelperLogInBank {
@@ -55,6 +50,6 @@ public class HelperLogInBank {
 		return page.error_login.getAttribute("innerText");
 	}
 	
-	//boolean getTest = driver.findElement(By.cssSelector(element)).getAttribute("innerText").contains(test);
+	
 
 }

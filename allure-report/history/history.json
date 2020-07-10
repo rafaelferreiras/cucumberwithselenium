@@ -1,0 +1,174 @@
+{
+  "3a94df3baa219f296ee5cbdca3a394b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55fbcb0a137ecb0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345587946,
+        "stop" : 1594345591184,
+        "duration" : 3238
+      }
+    } ]
+  },
+  "c908b1f0a934261a0dc5035f8e88ef6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b8bd7b05c8df9b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345614006,
+        "stop" : 1594345618259,
+        "duration" : 4253
+      }
+    } ]
+  },
+  "db074269914fae4420c4e2bcb58e8008" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64ff903932bde698",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with xpath == //li[contains(.,'Welcome RAFAEL')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:40440/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}\nSession ID: 210ba37b-fb3b-434f-ac5e-dec115426814\n*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}",
+      "time" : {
+        "start" : 1594345634758,
+        "stop" : 1594345650314,
+        "duration" : 15556
+      }
+    } ]
+  },
+  "d3763588732976bfb061389857ae002b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3ef19ecc8f89a41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345583762,
+        "stop" : 1594345587867,
+        "duration" : 4105
+      }
+    } ]
+  },
+  "2cb0e339dceb213e11b4bae1477e9d10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cce673975d9f0f19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345628594,
+        "stop" : 1594345632935,
+        "duration" : 4341
+      }
+    } ]
+  },
+  "3e000d4cb1e2c23c0a9d459c4ae0ed4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b54181b3dcf5a08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345618263,
+        "stop" : 1594345621719,
+        "duration" : 3456
+      }
+    } ]
+  },
+  "8fdad51c5b5952cfd5ddead1e4e982b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afb78ac52943ca35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345591189,
+        "stop" : 1594345595901,
+        "duration" : 4712
+      }
+    } ]
+  },
+  "dd35989ecc7781d33f24011c484065fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "184e1d98a0fb5747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345609368,
+        "stop" : 1594345614003,
+        "duration" : 4635
+      }
+    } ]
+  },
+  "3cca427bd07a853d4a579d5994392b94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d02109619745f9b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594345632938,
+        "stop" : 1594345634754,
+        "duration" : 1816
+      }
+    } ]
+  }
+}

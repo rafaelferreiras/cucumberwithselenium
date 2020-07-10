@@ -13,8 +13,6 @@ import enums.BrowserType;
 
 public class BroserManager extends BaseTest {
 
-	protected static WebDriverWait wait;
-
 	public void ManageBrowser() {
 
 		driver.manage().window().maximize();

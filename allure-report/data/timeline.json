@@ -1,0 +1,130 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-JFIIDIB",
+    "children" : [ {
+      "name" : "27476@DESKTOP-JFIIDIB.TestNG(15)",
+      "children" : [ {
+        "name" : "verifyAcessEmpty",
+        "uid" : "a3ef19ecc8f89a41",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345583762,
+          "stop" : 1594345587867,
+          "duration" : 4105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "verifyAcessInvalid",
+        "uid" : "55fbcb0a137ecb0e",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345587946,
+          "stop" : 1594345591184,
+          "duration" : 3238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      }, {
+        "name" : "verifyAcessEmpty",
+        "uid" : "cce673975d9f0f19",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345628594,
+          "stop" : 1594345632935,
+          "duration" : 4341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "InternetExplore" ]
+      }, {
+        "name" : "verifyAcessInvalid",
+        "uid" : "d02109619745f9b3",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345632938,
+          "stop" : 1594345634754,
+          "duration" : 1816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "InternetExplore" ]
+      }, {
+        "name" : "verifyAcessEmpty",
+        "uid" : "184e1d98a0fb5747",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345609368,
+          "stop" : 1594345614003,
+          "duration" : 4635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Fire fox" ]
+      }, {
+        "name" : "verifyAcessSuccessfully",
+        "uid" : "9b54181b3dcf5a08",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345618263,
+          "stop" : 1594345621719,
+          "duration" : 3456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Fire fox" ]
+      }, {
+        "name" : "verifyAcessInvalid",
+        "uid" : "1b8bd7b05c8df9b0",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345614006,
+          "stop" : 1594345618259,
+          "duration" : 4253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Fire fox" ]
+      }, {
+        "name" : "verifyAcessSuccessfully",
+        "uid" : "64ff903932bde698",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594345634758,
+          "stop" : 1594345650314,
+          "duration" : 15556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "InternetExplore" ]
+      }, {
+        "name" : "verifyAcessSuccessfully",
+        "uid" : "afb78ac52943ca35",
+        "parentUid" : "e61604e0d2c92d04a9b51659db34ab12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594345591189,
+          "stop" : 1594345595901,
+          "duration" : 4712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      } ],
+      "uid" : "e61604e0d2c92d04a9b51659db34ab12"
+    } ],
+    "uid" : "1d7bde6afb67b584bdc601ca17e66df7"
+  } ]
+}

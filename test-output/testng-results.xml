@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="9" passed="9">
+<testng-results skipped="0" failed="1" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Example test run" duration-ms="89678" started-at="2020-07-07T01:26:28Z" finished-at="2020-07-07T01:27:57Z">
+  <suite name="LoginBank" duration-ms="79236" started-at="2020-07-10T01:54:59Z" finished-at="2020-07-10T01:56:18Z">
     <groups>
     </groups>
-    <test name="Test on Chrome" duration-ms="37579" started-at="2020-07-07T01:26:28Z" finished-at="2020-07-07T01:27:05Z">
+    <test name="Test on Chrome" duration-ms="31367" started-at="2020-07-10T01:54:59Z" finished-at="2020-07-10T01:55:30Z">
       <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@1b604f19]" name="getDriver" is-config="true" duration-ms="12604" started-at="2020-07-06T22:26:28Z" finished-at="2020-07-06T22:26:40Z">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@55a561cf]" name="getDriver" is-config="true" duration-ms="14909" started-at="2020-07-09T22:54:59Z" finished-at="2020-07-09T22:55:14Z">
           <params>
             <param index="0">
               <value>
@@ -18,31 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="init" is-config="true" duration-ms="18" started-at="2020-07-06T22:26:40Z" finished-at="2020-07-06T22:26:40Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@55a561cf]" name="init" is-config="true" duration-ms="42" started-at="2020-07-09T22:55:14Z" finished-at="2020-07-09T22:55:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="verifyAcessEmpty" duration-ms="5035" started-at="2020-07-06T22:26:40Z" finished-at="2020-07-06T22:26:45Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@55a561cf]" name="verifyAcessEmpty" duration-ms="3667" started-at="2020-07-09T22:55:14Z" finished-at="2020-07-09T22:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="verifyAcessInvalid" duration-ms="7375" started-at="2020-07-06T22:26:45Z" finished-at="2020-07-06T22:26:53Z">
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@55a561cf]" name="verifyAcessInvalid" duration-ms="3606" started-at="2020-07-09T22:55:18Z" finished-at="2020-07-09T22:55:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="verifyAcessSuccessfully" duration-ms="8222" started-at="2020-07-06T22:26:53Z" finished-at="2020-07-06T22:27:01Z">
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@55a561cf]" name="verifyAcessSuccessfully" duration-ms="4953" started-at="2020-07-09T22:55:21Z" finished-at="2020-07-09T22:55:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@1b604f19]" name="ClosedDriver" is-config="true" duration-ms="4312" started-at="2020-07-06T22:27:01Z" finished-at="2020-07-06T22:27:05Z">
+        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@55a561cf]" name="ClosedDriver" is-config="true" duration-ms="4093" started-at="2020-07-09T22:55:26Z" finished-at="2020-07-09T22:55:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosedDriver -->
       </class> <!-- tests.TestLoginBank -->
     </test> <!-- Test on Chrome -->
-    <test name="Test on FireFox" duration-ms="29745" started-at="2020-07-07T01:27:05Z" finished-at="2020-07-07T01:27:35Z">
+    <test name="Test on FireFox" duration-ms="27923" started-at="2020-07-10T01:55:30Z" finished-at="2020-07-10T01:55:58Z">
       <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="getDriver" is-config="true" duration-ms="8486" started-at="2020-07-06T22:27:05Z" finished-at="2020-07-06T22:27:14Z">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@79ca92b9]" name="getDriver" is-config="true" duration-ms="10552" started-at="2020-07-09T22:55:30Z" finished-at="2020-07-09T22:55:41Z">
           <params>
             <param index="0">
               <value>
@@ -53,31 +53,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="init" is-config="true" duration-ms="1" started-at="2020-07-06T22:27:14Z" finished-at="2020-07-06T22:27:14Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@79ca92b9]" name="init" is-config="true" duration-ms="2" started-at="2020-07-09T22:55:41Z" finished-at="2020-07-09T22:55:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="verifyAcessEmpty" duration-ms="5355" started-at="2020-07-06T22:27:14Z" finished-at="2020-07-06T22:27:19Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@79ca92b9]" name="verifyAcessEmpty" duration-ms="3580" started-at="2020-07-09T22:55:41Z" finished-at="2020-07-09T22:55:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="verifyAcessInvalid" duration-ms="5731" started-at="2020-07-06T22:27:19Z" finished-at="2020-07-06T22:27:25Z">
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@79ca92b9]" name="verifyAcessInvalid" duration-ms="4221" started-at="2020-07-09T22:55:44Z" finished-at="2020-07-09T22:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="verifyAcessSuccessfully" duration-ms="7218" started-at="2020-07-06T22:27:25Z" finished-at="2020-07-06T22:27:32Z">
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@79ca92b9]" name="verifyAcessSuccessfully" duration-ms="4912" started-at="2020-07-09T22:55:49Z" finished-at="2020-07-09T22:55:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@1e88b3c]" name="ClosedDriver" is-config="true" duration-ms="2950" started-at="2020-07-06T22:27:32Z" finished-at="2020-07-06T22:27:35Z">
+        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@79ca92b9]" name="ClosedDriver" is-config="true" duration-ms="4637" started-at="2020-07-09T22:55:54Z" finished-at="2020-07-09T22:55:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosedDriver -->
       </class> <!-- tests.TestLoginBank -->
     </test> <!-- Test on FireFox -->
-    <test name="Test on IE" duration-ms="22330" started-at="2020-07-07T01:27:35Z" finished-at="2020-07-07T01:27:57Z">
+    <test name="Test on IE" duration-ms="19915" started-at="2020-07-10T01:55:58Z" finished-at="2020-07-10T01:56:18Z">
       <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="getDriver" is-config="true" duration-ms="3190" started-at="2020-07-06T22:27:35Z" finished-at="2020-07-06T22:27:38Z">
+        <test-method status="PASS" signature="getDriver(java.lang.String)[pri:0, instance:tests.TestLoginBank@527e5409]" name="getDriver" is-config="true" duration-ms="5301" started-at="2020-07-09T22:55:58Z" finished-at="2020-07-09T22:56:04Z">
           <params>
             <param index="0">
               <value>
@@ -88,31 +88,141 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="verifyAcessEmpty" duration-ms="9243" started-at="2020-07-06T22:27:38Z" finished-at="2020-07-06T22:27:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="init" is-config="true" duration-ms="0" started-at="2020-07-06T22:27:38Z" finished-at="2020-07-06T22:27:38Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@527e5409]" name="init" is-config="true" duration-ms="1" started-at="2020-07-09T22:56:04Z" finished-at="2020-07-09T22:56:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="verifyAcessInvalid" duration-ms="4879" started-at="2020-07-06T22:27:47Z" finished-at="2020-07-06T22:27:52Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@527e5409]" name="verifyAcessEmpty" duration-ms="6071" started-at="2020-07-09T22:56:04Z" finished-at="2020-07-09T22:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessEmpty -->
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@527e5409]" name="verifyAcessInvalid" duration-ms="1826" started-at="2020-07-09T22:56:10Z" finished-at="2020-07-09T22:56:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="verifyAcessSuccessfully" duration-ms="5002" started-at="2020-07-06T22:27:52Z" finished-at="2020-07-06T22:27:57Z">
+        <test-method status="FAIL" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@527e5409]" name="verifyAcessSuccessfully" duration-ms="6676" started-at="2020-07-09T22:56:11Z" finished-at="2020-07-09T22:56:18Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Currently focused window has been closed.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21400/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9692a0ca-017b-45b1-ac49-c52e615eb066
+*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21400/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9692a0ca-017b-45b1-ac49-c52e615eb066
+*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at helper.DemoFeatureStepDef.eu_devo_ver_que_entrei_com_sucesso(DemoFeatureStepDef.java:39)
+	at tests.TestLoginBank.verifyAcessSuccessfully(TestLoginBank.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="ClosedDriver" is-config="true" duration-ms="14" started-at="2020-07-06T22:27:57Z" finished-at="2020-07-06T22:27:57Z">
+        <test-method status="FAIL" signature="ClosedDriver()[pri:0, instance:tests.TestLoginBank@527e5409]" name="ClosedDriver" is-config="true" duration-ms="0" started-at="2020-07-09T22:56:18Z" finished-at="2020-07-09T22:56:18Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Unable to get browser
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21400/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9692a0ca-017b-45b1-ac49-c52e615eb066]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Unable to get browser
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21400/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9692a0ca-017b-45b1-ac49-c52e615eb066
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
+	at base_test.BaseTest.ClosedDriver(BaseTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosedDriver -->
-        <test-method status="PASS" signature="TestReport()[pri:0, instance:tests.TestLoginBank@604ed9f0]" name="TestReport" is-config="true" duration-ms="0" started-at="2020-07-06T22:27:57Z" finished-at="2020-07-06T22:27:57Z">
+        <test-method status="SKIP" signature="TestReport()[pri:0, instance:tests.TestLoginBank@527e5409]" name="TestReport" is-config="true" duration-ms="0" started-at="2020-07-09T22:56:18Z" finished-at="2020-07-09T22:56:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestReport -->
       </class> <!-- tests.TestLoginBank -->
     </test> <!-- Test on IE -->
-  </suite> <!-- Example test run -->
+  </suite> <!-- LoginBank -->
 </testng-results>

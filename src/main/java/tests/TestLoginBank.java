@@ -9,24 +9,26 @@ import org.testng.annotations.Test;
 
 import action_test.LoginAction;
 import base_test.BaseTest;
+import helper.DemoFeatureStepDef;
 import helper.HelperLogInBank;
 import utilities.JsonHandler;
 
 public class TestLoginBank extends BaseTest {
 
-	LoginAction loginBankAction;
+	DemoFeatureStepDef demo;
 	JsonHandler jsonHandler;
-	HelperLogInBank helper;
+
 	JSONObject jsonObject = null;
 	String element;
 	String testObjective;
+	String username;
+	String password;
 
 	@BeforeClass
 	public void init() throws IOException, ParseException {
 
 		jsonHandler = new JsonHandler();
-		loginBankAction = new LoginAction();
-		helper = new HelperLogInBank();
+		demo = new DemoFeatureStepDef();
 
 	}
 
@@ -35,19 +37,43 @@ public class TestLoginBank extends BaseTest {
 
 		jsonObject = jsonHandler.getDataFile("UsersData.json", "valid");
 
-		loginBankAction.dataProviderTest(jsonObject);
-		element = helper.verifySucessLogin();
+		username = (String) jsonObject.get("username");
+		password = (String) jsonObject.get("password");
+
+		demo.eu_navego_para_aplicacao_para_teste_Success()
+		.eu_tento_entrar_com_as_credenciais_validas(username,
+				password);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			System.out.println("Falha ao executar ->" + e.getMessage());
+			e.printStackTrace();
+		}
+
+		element = demo.eu_devo_ver_que_entrei_com_sucesso();
 		testObjective = (String) jsonObject.get("message");
 		Assert.assertEquals(element, testObjective);
+
 	}
 
 	@Test
 	public void verifyAcessInvalid() {
 
 		jsonObject = jsonHandler.getDataFile("UsersData.json", "invalid");
+		
+		username = (String) jsonObject.get("username");
+		password = (String) jsonObject.get("password");
 
-		loginBankAction.dataProviderTest(jsonObject);
-		element = helper.verifyErrorLogin();
+		demo.eu_navego_para_aplicacao_para_teste_invalid()
+		.eu_tento_entrar_com_as_credenciais_invalidas(username, password);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			System.out.println("Falha ao executar ->" + e.getMessage());
+			e.printStackTrace();
+		}
+		
+		element = demo.eu_devo_ver_que_nao_tive_acesso();
 		testObjective = (String) jsonObject.get("message");
 		Assert.assertTrue(element.contains(testObjective));
 	}
@@ -57,8 +83,19 @@ public class TestLoginBank extends BaseTest {
 
 		jsonObject = jsonHandler.getDataFile("UsersData.json", "allEmpty");
 
-		loginBankAction.dataProviderTest(jsonObject);
-		element = helper.verifyErrorLogin();
+		username = (String) jsonObject.get("username");
+		password = (String) jsonObject.get("password");
+
+		demo.eu_navego_para_aplicacao_para_teste_empty()
+		.eu_tento_entrar_com_as_credenciais_em_branco(username, password);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			System.out.println("Falha ao executar ->" + e.getMessage());
+			e.printStackTrace();
+		}
+		
+		element = demo.eu_devo_ver_que_nao_tive_acesso_com_dados_em_branco();
 		testObjective = (String) jsonObject.get("message");
 		Assert.assertTrue(element.contains(testObjective));
 

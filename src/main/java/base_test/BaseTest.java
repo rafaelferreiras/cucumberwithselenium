@@ -9,8 +9,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import managers.BroserManager;
+import managers.PageObjectManager;
 import page_objects.HomePage;
-import page_objects.PageObjectManager;
 
 public class BaseTest {
 

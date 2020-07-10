@@ -1,0 +1,150 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "LoginBank",
+    "children" : [ {
+      "name" : "Test on Chrome",
+      "children" : [ {
+        "name" : "tests.TestLoginBank",
+        "children" : [ {
+          "name" : "verifyAcessEmpty",
+          "uid" : "a3ef19ecc8f89a41",
+          "parentUid" : "087e957bb1874ad73e1d64c365dffb72",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345583762,
+            "stop" : 1594345587867,
+            "duration" : 4105
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Chrome" ]
+        }, {
+          "name" : "verifyAcessInvalid",
+          "uid" : "55fbcb0a137ecb0e",
+          "parentUid" : "087e957bb1874ad73e1d64c365dffb72",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345587946,
+            "stop" : 1594345591184,
+            "duration" : 3238
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Chrome" ]
+        }, {
+          "name" : "verifyAcessSuccessfully",
+          "uid" : "afb78ac52943ca35",
+          "parentUid" : "087e957bb1874ad73e1d64c365dffb72",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345591189,
+            "stop" : 1594345595901,
+            "duration" : 4712
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Chrome" ]
+        } ],
+        "uid" : "087e957bb1874ad73e1d64c365dffb72"
+      } ],
+      "uid" : "65f6c5f69a406f5c792e46fdebbc54be"
+    }, {
+      "name" : "Test on FireFox",
+      "children" : [ {
+        "name" : "tests.TestLoginBank",
+        "children" : [ {
+          "name" : "verifyAcessEmpty",
+          "uid" : "184e1d98a0fb5747",
+          "parentUid" : "8021330b160ae18bde07d5b1dd7e26b3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345609368,
+            "stop" : 1594345614003,
+            "duration" : 4635
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Fire fox" ]
+        }, {
+          "name" : "verifyAcessInvalid",
+          "uid" : "1b8bd7b05c8df9b0",
+          "parentUid" : "8021330b160ae18bde07d5b1dd7e26b3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345614006,
+            "stop" : 1594345618259,
+            "duration" : 4253
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Fire fox" ]
+        }, {
+          "name" : "verifyAcessSuccessfully",
+          "uid" : "9b54181b3dcf5a08",
+          "parentUid" : "8021330b160ae18bde07d5b1dd7e26b3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345618263,
+            "stop" : 1594345621719,
+            "duration" : 3456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Fire fox" ]
+        } ],
+        "uid" : "8021330b160ae18bde07d5b1dd7e26b3"
+      } ],
+      "uid" : "3c3a87a7b1529ba0add58ca401287052"
+    }, {
+      "name" : "Test on IE",
+      "children" : [ {
+        "name" : "tests.TestLoginBank",
+        "children" : [ {
+          "name" : "verifyAcessEmpty",
+          "uid" : "cce673975d9f0f19",
+          "parentUid" : "30e93131517b4dc622b93c558b04bccd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345628594,
+            "stop" : 1594345632935,
+            "duration" : 4341
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "InternetExplore" ]
+        }, {
+          "name" : "verifyAcessInvalid",
+          "uid" : "d02109619745f9b3",
+          "parentUid" : "30e93131517b4dc622b93c558b04bccd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594345632938,
+            "stop" : 1594345634754,
+            "duration" : 1816
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "InternetExplore" ]
+        }, {
+          "name" : "verifyAcessSuccessfully",
+          "uid" : "64ff903932bde698",
+          "parentUid" : "30e93131517b4dc622b93c558b04bccd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594345634758,
+            "stop" : 1594345650314,
+            "duration" : 15556
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "InternetExplore" ]
+        } ],
+        "uid" : "30e93131517b4dc622b93c558b04bccd"
+      } ],
+      "uid" : "7b3f7b336aaf4a4b13e1cc5e1dfd7e17"
+    } ],
+    "uid" : "e438a5eb9e32713178cdac90676d3e7a"
+  } ]
+}

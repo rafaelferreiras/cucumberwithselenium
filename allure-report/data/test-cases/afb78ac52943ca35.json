@@ -1,0 +1,185 @@
+{
+  "uid" : "afb78ac52943ca35",
+  "name" : "verifyAcessSuccessfully",
+  "fullName" : "tests.TestLoginBank.verifyAcessSuccessfully",
+  "historyId" : "8fdad51c5b5952cfd5ddead1e4e982b6",
+  "time" : {
+    "start" : 1594345591189,
+    "stop" : 1594345595901,
+    "duration" : 4712
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getDriver",
+    "time" : {
+      "start" : 1594345571047
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "getDriver",
+    "time" : {
+      "start" : 1594345571049,
+      "stop" : 1594345583705,
+      "duration" : 12656
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1594345583710
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1594345583710,
+      "stop" : 1594345583727,
+      "duration" : 17
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "ClosedDriver",
+    "time" : {
+      "start" : 1594345595903
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "ClosedDriver",
+    "time" : {
+      "start" : 1594345595903,
+      "stop" : 1594345599976,
+      "duration" : 4073
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "TestReport",
+    "time" : {
+      "start" : 1594345650341
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "TestReport",
+    "time" : {
+      "start" : 1594345650342,
+      "stop" : 1594345650342,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.TestLoginBank"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TestLoginBank"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAcessSuccessfully"
+  }, {
+    "name" : "parentSuite",
+    "value" : "LoginBank"
+  }, {
+    "name" : "suite",
+    "value" : "Test on Chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.TestLoginBank"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JFIIDIB"
+  }, {
+    "name" : "thread",
+    "value" : "27476@DESKTOP-JFIIDIB.TestNG(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "BrowserType",
+    "value" : "Chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afb78ac52943ca35.json",
+  "parameterValues" : [ "Chrome" ]
+}
